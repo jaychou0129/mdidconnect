@@ -9,14 +9,15 @@ Test User:
   Username: test
   Password: test
 Test Admin:
- Username: admin
- Password: admin
+  Username: admin
+  Password: admin
 ```
 
 ## Pages and features (non-display pages are listed in *italics*)
-### Home (index.php)
-  * Homepage showing top 3 reserved classrooms, basic information about the website and a "contact us" section for feedback and comments.
-  * 
+### Homepage (index.php)
+  * Shows top 3 reserved classrooms, basic information about the website and a "contact us" section for feedback and comments.
+  * Classroom availability can be viewed by clicking on the picture of the classroom.
+  * Feedback and comments are sent via email to the website creator. (Currently only works locally, needs to be fixed for the server.)
 
 ### Available Rooms (rooms.php)
 
