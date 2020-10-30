@@ -1,0 +1,41 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<meta name="google-signin-client_id" content="358731458931-kkonojvlpmpmlg6pmhd769lffaa484dv.apps.googleusercontent.com">
+</head>
+<script>
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  if (!profile.getEmail().endsWith("@ms.mingdao.edu.tw")) {
+  	alert("Please sign in with a Mingdao Account!");
+  	signOut();
+  	return;
+  }
+
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+  alert("Hello, " + profile.getName() + "!");
+  $('#signin_btn').hide();
+  $('#signout_btn').show();
+}
+
+</script>
+<body>
+	<!--<div id="signin_btn" class="g-signin2" data-onsuccess="onSignIn"></div>-->
+  <a id="signin_btn" data-onsuccess="onSignIn">Sign in</a>
+	<a href="#" onclick="signOut();" id="signout_btn" style="display:none;">Sign out</a>
+	<script>
+	  function signOut() {
+	    var auth2 = gapi.auth2.getAuthInstance();
+	    auth2.signOut().then(function () {
+	      console.log('User signed out.');
+  $('#signin_btn').show();
+  $('#signout_btn').hide();
+	    });
+	  }
+	</script>
+</body>
+</html>
