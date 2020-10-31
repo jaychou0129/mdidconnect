@@ -14,7 +14,7 @@ Test Admin:
 ```
 
 ## Overview & Sitemap
-![Image](https://i.imgur.com/mvgeORL.png)
+![Image](https://i.imgur.com/99sKynj.png)
 
 ### Database Design
 
