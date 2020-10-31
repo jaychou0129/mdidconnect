@@ -125,7 +125,8 @@ Availability is shown in a modal box as pop-up.
   *For testing purposes only*
 
 ## Future Improvements
-While the system is currently in maintenance, several functions will be added before it becomes available and ready for practical use.
-1. **Login methods:** In order to alleviate the burden of having to maintain account information every year, Google APIs will be incorporated to allow users to login with school Emails, which automatically contains necessary information such as email and name.
+While the system is currently in maintenance, several functions could be added before it becomes available and ready for practical use.
+1. **Login method:** In order to alleviate the burden of having to maintain account information every year, Google APIs will be incorporated to allow users to login with school Emails, which automatically contains necessary information such as email and name.
 2. **Automated Email notifications:** While the Email function works locally, it is currently down on the server. Email notifications will be sent to users when their requests have been approved/disapproved and to admins when a new request has been made.
-3. **Integration with Google Calendar API:** 
+3. **Implementation of Google Calendar API:** The Google Calendar API allows events to be added to the Google Calendar, and by integrating it with the MDID Connect System, admin can create events once reservation requests are approved, automatically inviting the user and involved personnel to the event, etc. The availability pop-up of each classroom can also be replaced with the Google Calendar Plugin so that scheduled events and classroom reservations can be displayed together.
+4. **Export reservation data to CSV:** This could be useful to the admin if they wish to keep a record of reservation data every year and clear the data, etc.
