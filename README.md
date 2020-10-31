@@ -47,6 +47,16 @@ Test Admin:
 |ID|VARCHAR|
 |pwd|VARCHAR|
 
+## Technical Information
+**Main languages used:**
+* Frontend: HTML, CSS, Javascript
+* Backend: PHP, MySQL
+
+**Frameworks & Libraries Used:**
+jQuery, Bootstrap 3 (with parts of Bootstrap 4 integrated)
+
+**Current Server:** Heroku (a free website-hosting service)
+
 ## Pages and features (non-display pages are listed in *italics*)
   * All pages are designed to be responsive to changes in viewport widths, so the website can display properly on all devices.
 
