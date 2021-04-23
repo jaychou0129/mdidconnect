@@ -1,7 +1,7 @@
 # MDID ConNect System
 A classroom reservation system constructed in 2019 by Tze-Chieh (Jay) Chou from MDID Class of 2021, with the main objective of digitalizing and improving the experience of the classroom reservation process within the school.
 
-The system is currently in maintenance and will be available by June, 2021. To test the system, please refer to [the following link](https://mdidconnect.herokuapp.com).
+To test the system, please refer to [the following link](https://mdidconnect.herokuapp.com).
 
 Use the following credentials to login:
 ```
