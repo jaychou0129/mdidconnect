@@ -13,11 +13,7 @@ Test Admin:
   Password: admin
 ```
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+Click [here](https://youtu.be/Vyr0e-Eu3rg) for a video demo.
 
 ## Overview & Sitemap
 ![Image](https://i.imgur.com/99sKynj.png)
